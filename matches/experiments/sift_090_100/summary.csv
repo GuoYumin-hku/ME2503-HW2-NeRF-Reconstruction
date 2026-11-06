@@ -1,0 +1,4 @@
+object,status,best_pair,best_inlier_count,best_match_count,successful_pair_count,tested_pair_count
+mug,matching_failed,pair_024_025,7,10,0,37
+banana,estimated,pair_002_010,9,9,2,37
+table,matching_failed,pair_026_027,0,5,0,37

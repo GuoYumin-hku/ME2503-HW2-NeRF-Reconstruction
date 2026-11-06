@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "selection": "Ten distinct categories from existing course_project audit; cupboard excluded because it is similar to cabinet.",
+  "hw1_evidence": {
+    "tiers.jsonl": {
+      "path": "F:\\dataset\\ME2503\\hw1_work\\curation\\tiers.jsonl",
+      "sha256": "4eb6d6b9ca24c86e3c315112a25a5261894d8e9fdb631db9a7c766aaadd20766"
+    },
+    "objects_index.jsonl": {
+      "path": "F:\\dataset\\ME2503\\hw1_work\\curation\\objects_index.jsonl",
+      "sha256": "780129c323227282a29d58c836d449ad46923368c17867277acaceb2657f1755"
+    }
+  },
+  "selection_snapshot": {
+    "path": "data/hw1_selection.json",
+    "sha256": "e32436a56328e5daddbdb040c37c9815bc5b038e857c0f84825966552b3a0573"
+  },
+  "source_assets_modified": false,
+  "source_mesh_usage": "Only to synthesize RGB supervision. Mesh vertices/depth/normals are not exported to the NeRF trainer.",
+  "redistribution": "Source and normalized GLBs are excluded from submission. Rendered derivatives retain author/license information; table is CC BY-NC and is for noncommercial coursework.",
+  "objects": [
+    {
+      "slug": "mug",
+      "uid": "de23895b6e9b4cfd870e30d14c2150dd",
+      "name": "Mug",
+      "category": "mug",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-009\\de23895b6e9b4cfd870e30d14c2150dd.glb",
+      "source_sha256": "98b8369a06031e6395f5cf00a59b1ba350fa75a414e41b7e358a1884c841ceab",
+      "normalized_path": ".local_assets/de23895b6e9b4cfd870e30d14c2150dd.glb",
+      "normalized_sha256": "9b4ba7724f2662a75d70ae521790b39d971e3c800cab8dbd40ef9f9b246b4179",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 5,
+        "source_center": [
+          180.07397751729513,
+          0.0,
+          0.0
+        ],
+        "source_max_dim": 1376.5412498114529,
+        "scale": 0.0007264584335100541,
+        "translation": [
+          -0.13081625962313892,
+          -0.0,
+          -0.0
+        ],
+        "inverse": {
+          "scale": 1376.5412498114529,
+          "translation": [
+            180.07397751729513,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 262,
+      "textures": 0,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Jiří Kuba",
+      "author_url": "https://sketchfab.com/kuba.jirka",
+      "source_url": "https://sketchfab.com/3d-models/de23895b6e9b4cfd870e30d14c2150dd",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "apple",
+      "uid": "e3173857f9384aa4928daeabff75da44",
+      "name": "Apple",
+      "category": "apple",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-006\\e3173857f9384aa4928daeabff75da44.glb",
+      "source_sha256": "b1d99ec3aa8d528ce1bb2e70a2704e2670d12d1fe9dc09c99c6956b6e7be90fd",
+      "normalized_path": ".local_assets/e3173857f9384aa4928daeabff75da44.glb",
+      "normalized_sha256": "0aff34a2232bd42f86896bbe7b5d91ce4addfbfcb8181ac7e09d3d6977bb89aa",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 3,
+        "source_center": [
+          -0.010864019393920898,
+          2.000000000000001,
+          -2.176542997360229
+        ],
+        "source_max_dim": 4.053557872772217,
+        "scale": 0.24669686023653656,
+        "translation": [
+          0.0026801194740291266,
+          -0.49339372047307334,
+          0.5369463236185887
+        ],
+        "inverse": {
+          "scale": 4.053557872772217,
+          "translation": [
+            -0.010864019393920898,
+            2.000000000000001,
+            -2.176542997360229
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 5880,
+      "textures": 1,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "hannkomaki",
+      "author_url": "https://sketchfab.com/hannkomaki",
+      "source_url": "https://sketchfab.com/3d-models/e3173857f9384aa4928daeabff75da44",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "chair",
+      "uid": "019131b6267246bfa44afe60eca5cceb",
+      "name": "Wooden simple chair",
+      "category": "chair",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-000\\019131b6267246bfa44afe60eca5cceb.glb",
+      "source_sha256": "91c4af4d5a3d6780551e63fb97c9aae4c8d99c87ac7fcf29d9b8f1456b040eb6",
+      "normalized_path": ".local_assets/019131b6267246bfa44afe60eca5cceb.glb",
+      "normalized_sha256": "03d59c5b1b60c7cd9de46735966266f1fd8a3723812b209b86f5fd6da2f5b73f",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 4,
+        "source_center": [
+          0.0,
+          2.8646148927509785,
+          4.440892098500626e-16
+        ],
+        "source_max_dim": 5.71286978572607,
+        "scale": 0.1750433735595649,
+        "translation": [
+          -0.0,
+          -0.5014318547761024,
+          -7.773487345355652e-17
+        ],
+        "inverse": {
+          "scale": 5.71286978572607,
+          "translation": [
+            0.0,
+            2.8646148927509785,
+            4.440892098500626e-16
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 336,
+      "textures": 1,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Karyu",
+      "author_url": "https://sketchfab.com/karyu.lucca",
+      "source_url": "https://sketchfab.com/3d-models/019131b6267246bfa44afe60eca5cceb",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "table",
+      "uid": "c801881f25e34327bac908af98051914",
+      "name": "Cofee Table",
+      "category": "table",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-004\\c801881f25e34327bac908af98051914.glb",
+      "source_sha256": "9c3dbf607b57d5ce639221bb920ca34dddd3fe2348c410d1bcef6b6ced0e77b7",
+      "normalized_path": ".local_assets/c801881f25e34327bac908af98051914.glb",
+      "normalized_sha256": "cd4e190bf4e92a1a576b8e5f9dcf0cfd47ec7d901a9aa7ab17ac0e1a39f75991",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 7,
+        "source_center": [
+          55.0,
+          21.29999710682538,
+          -55.00000596046446
+        ],
+        "source_max_dim": 110.0000147287071,
+        "scale": 0.009090907873660733,
+        "translation": [
+          -0.49999993305134033,
+          -0.19363631140738968,
+          0.4999999872373736
+        ],
+        "inverse": {
+          "scale": 110.0000147287071,
+          "translation": [
+            55.0,
+            21.29999710682538,
+            -55.00000596046446
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 140,
+      "textures": 0,
+      "license": "by-nc",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "author": "Dream_Harvest",
+      "author_url": "https://sketchfab.com/Dream_Harvest",
+      "source_url": "https://sketchfab.com/3d-models/c801881f25e34327bac908af98051914",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "bowl",
+      "uid": "11a459d53cd04ff69da21d96ce848aec",
+      "name": "Bowl test. Hi - spec",
+      "category": "bowl",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-007\\11a459d53cd04ff69da21d96ce848aec.glb",
+      "source_sha256": "a07aea03d17a865c50af996f8128f031222cab17ad0454c97fbf6bc79cef4bb9",
+      "normalized_path": ".local_assets/11a459d53cd04ff69da21d96ce848aec.glb",
+      "normalized_sha256": "2bda2c6e2dddc553fa30a5910abe8bf2873c11640eec72c1af3df228d163b4b5",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 3,
+        "source_center": [
+          1.2256910692475926,
+          -0.12486562216544161,
+          -11.291894714114779
+        ],
+        "source_max_dim": 4.633078250893698,
+        "scale": 0.2158392208910145,
+        "translation": [
+          -0.2645522054394749,
+          0.026950898604260712,
+          2.437233757477899
+        ],
+        "inverse": {
+          "scale": 4.633078250893698,
+          "translation": [
+            1.2256910692475926,
+            -0.12486562216544161,
+            -11.291894714114779
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 3078,
+      "textures": 3,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Noz'aj",
+      "author_url": "https://sketchfab.com/nozaj",
+      "source_url": "https://sketchfab.com/3d-models/11a459d53cd04ff69da21d96ce848aec",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "bottle",
+      "uid": "39b092718d1b4068abba42ea00cee691",
+      "name": "Bottle Export",
+      "category": "bottle",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-003\\39b092718d1b4068abba42ea00cee691.glb",
+      "source_sha256": "277ff23e11c6b2b0572ce9ac78ee9c19b43afded6477d47ab0162f514895e931",
+      "normalized_path": ".local_assets/39b092718d1b4068abba42ea00cee691.glb",
+      "normalized_sha256": "59b8cc2147990ea58d09710d517aef9a312ad88bcf43d484c267d5a5aa45ad82",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 5,
+        "source_center": [
+          -2.384185791015625e-07,
+          6.1014723544992195,
+          -3.5762786865234375e-07
+        ],
+        "source_max_dim": 12.20294470900044,
+        "scale": 0.08194743349631316,
+        "translation": [
+          1.953779065521077e-08,
+          -0.49999999999991807,
+          2.9306685982816155e-08
+        ],
+        "inverse": {
+          "scale": 12.20294470900044,
+          "translation": [
+            -2.384185791015625e-07,
+            6.1014723544992195,
+            -3.5762786865234375e-07
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 400,
+      "textures": 0,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Neonhuo",
+      "author_url": "https://sketchfab.com/neonhuo",
+      "source_url": "https://sketchfab.com/3d-models/39b092718d1b4068abba42ea00cee691",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "banana",
+      "uid": "03c53bd7f7644377996e5b2437ff93cb",
+      "name": "low poly banana FREE",
+      "category": "banana",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-000\\03c53bd7f7644377996e5b2437ff93cb.glb",
+      "source_sha256": "16da34dc111395e1fd53732afa619d65ef754b411dc94492bfb81cb3fcdabcda",
+      "normalized_path": ".local_assets/03c53bd7f7644377996e5b2437ff93cb.glb",
+      "normalized_sha256": "67d7872fd62886f661674d8d72a9e8d5cd28db4e3ea21948f9a656fd21723d27",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 3,
+        "source_center": [
+          0.2884022444486618,
+          1.8682330846578332e-06,
+          0.057501599192619324
+        ],
+        "source_max_dim": 0.3036961853504181,
+        "scale": 3.292764441035556,
+        "translation": [
+          -0.9496406552353976,
+          -6.151651468727483e-06,
+          -0.18933922112413576
+        ],
+        "inverse": {
+          "scale": 0.3036961853504181,
+          "translation": [
+            0.2884022444486618,
+            1.8682330846578332e-06,
+            0.057501599192619324
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 864,
+      "textures": 1,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Madeline Rosenblum",
+      "author_url": "https://sketchfab.com/AMurderOfCrows",
+      "source_url": "https://sketchfab.com/3d-models/03c53bd7f7644377996e5b2437ff93cb",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "box",
+      "uid": "21cf6af4cb5a419ca00728253d290b3a",
+      "name": "Box",
+      "category": "box",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-008\\21cf6af4cb5a419ca00728253d290b3a.glb",
+      "source_sha256": "3deadc214e4f550d6e9453f24693601cc8dd1dc87b21906028deb34c88220a94",
+      "normalized_path": ".local_assets/21cf6af4cb5a419ca00728253d290b3a.glb",
+      "normalized_sha256": "8b5f6727a10ef810f5851b16950e97bb17c4ddb1b8838739d5f3e7199ac7979d",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 5,
+        "source_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_max_dim": 2.000000281137841,
+        "scale": 0.49999992971554963,
+        "translation": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "inverse": {
+          "scale": 2.000000281137841,
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 108,
+      "textures": 0,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "TomaszObloj",
+      "author_url": "https://sketchfab.com/tomasz_obloj",
+      "source_url": "https://sketchfab.com/3d-models/21cf6af4cb5a419ca00728253d290b3a",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "plate",
+      "uid": "4357b57e23a945d98bda7bd57b68fd28",
+      "name": "Qinghua Plate ( with cracks ) - Free Download",
+      "category": "plate",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-004\\4357b57e23a945d98bda7bd57b68fd28.glb",
+      "source_sha256": "3b11bc570fd46ff5b86bd551aaa13d8bf6f468080c6880e26f8c923492acbaf9",
+      "normalized_path": ".local_assets/4357b57e23a945d98bda7bd57b68fd28.glb",
+      "normalized_sha256": "9265d643b44b2b2aaf8aa7a18b9e9bf7cf1f0b3a45b82cae4775e4e8e8198900",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 4,
+        "source_center": [
+          0.0,
+          -1.6424598348052655e-09,
+          1.0448398909956857e-08
+        ],
+        "source_max_dim": 2.0,
+        "scale": 0.5,
+        "translation": [
+          -0.0,
+          8.212299174026327e-10,
+          -5.224199454978429e-09
+        ],
+        "inverse": {
+          "scale": 2.0,
+          "translation": [
+            0.0,
+            -1.6424598348052655e-09,
+            1.0448398909956857e-08
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 752,
+      "textures": 3,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Kugatsu Tsukai 3D Models Hub",
+      "author_url": "https://sketchfab.com/KugatsuT",
+      "source_url": "https://sketchfab.com/3d-models/4357b57e23a945d98bda7bd57b68fd28",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    },
+    {
+      "slug": "cabinet",
+      "uid": "030019585a6e4f79bbc3d7c10a3a31db",
+      "name": "55-76",
+      "category": "cabinet",
+      "hw1_tier": "core",
+      "source_path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-000\\030019585a6e4f79bbc3d7c10a3a31db.glb",
+      "source_sha256": "8d3e2da26d235fe5eb3268dbde170efbe092d3f18cee5e955ac691e1d3826d46",
+      "normalized_path": ".local_assets/030019585a6e4f79bbc3d7c10a3a31db.glb",
+      "normalized_sha256": "1730f76fc2fa7f4682c27566a002ea61c5c56427be7a72c46c320a17d60a39dc",
+      "normalization": {
+        "method": "default_scene_parent_trs",
+        "scene_index": 0,
+        "parent_node": 19,
+        "source_center": [
+          1.2950592041015625,
+          122.09791220677832,
+          -21.185375209437026
+        ],
+        "source_max_dim": 371.2794189453125,
+        "scale": 0.002693389261491208,
+        "translation": [
+          -0.003488098553322499,
+          -0.328857205588233,
+          0.05706046208975974
+        ],
+        "inverse": {
+          "scale": 371.2794189453125,
+          "translation": [
+            1.2950592041015625,
+            122.09791220677832,
+            -21.185375209437026
+          ]
+        }
+      },
+      "normalization_verification": "exact SHA-256 match to recorded HW1 normalized GLB",
+      "triangles": 54908,
+      "textures": 1,
+      "license": "by",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Gulin",
+      "author_url": "https://sketchfab.com/GulinAlex",
+      "source_url": "https://sketchfab.com/3d-models/030019585a6e4f79bbc3d7c10a3a31db",
+      "modifications": "HW1 center/unit-box normalization; synthetic camera views with fixed illumination; neutral gray compositing"
+    }
+  ]
+}

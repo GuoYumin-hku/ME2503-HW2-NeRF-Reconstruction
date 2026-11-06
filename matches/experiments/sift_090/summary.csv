@@ -1,0 +1,11 @@
+object,status,best_pair,best_inlier_count,best_match_count,successful_pair_count,tested_pair_count
+apple,matching_failed,pair_012_020,0,5,0,24
+banana,estimated,pair_002_010,9,9,1,24
+bottle,estimated,pair_009_017,8,10,3,24
+bowl,estimated,pair_027_028,36,41,15,24
+box,estimated,pair_004_012,10,14,4,24
+cabinet,estimated,pair_014_022,16,20,4,24
+chair,estimated,pair_014_022,17,19,8,24
+mug,matching_failed,pair_001_002,7,8,0,24
+plate,estimated,pair_006_014,82,89,6,24
+table,matching_failed,pair_025_026,0,4,0,24

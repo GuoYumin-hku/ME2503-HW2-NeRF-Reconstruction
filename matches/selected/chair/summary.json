@@ -1,0 +1,13 @@
+{
+  "object": "chair",
+  "quality_checked": true,
+  "trial": "orb_090",
+  "source_pair_json": "matches/experiments/orb_090/chair/pair_002_010.json",
+  "pair": "pair_002_010",
+  "detector": "orb",
+  "mutual_matches": 55,
+  "fundamental_inliers": 48,
+  "calibrated_consistent_inliers": 48,
+  "calibrated_median_error_px": 0.22455896200245065,
+  "status": "estimated"
+}

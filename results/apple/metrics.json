@@ -1,0 +1,153 @@
+{
+  "method": "feature-grid NeRF: learned density and feature grids plus directional RGB MLP",
+  "source": "hw2\\data\\apple",
+  "train_frames": [
+    "images/train_000.png",
+    "images/train_001.png",
+    "images/train_002.png",
+    "images/train_003.png",
+    "images/train_004.png",
+    "images/train_005.png",
+    "images/train_006.png",
+    "images/train_007.png",
+    "images/train_008.png",
+    "images/train_009.png",
+    "images/train_010.png",
+    "images/train_011.png",
+    "images/train_012.png",
+    "images/train_013.png",
+    "images/train_014.png",
+    "images/train_015.png",
+    "images/train_016.png",
+    "images/train_017.png",
+    "images/train_018.png",
+    "images/train_019.png",
+    "images/train_020.png",
+    "images/train_021.png",
+    "images/train_022.png",
+    "images/train_023.png",
+    "images/train_024.png",
+    "images/train_025.png",
+    "images/train_026.png",
+    "images/train_027.png",
+    "images/train_028.png",
+    "images/train_029.png",
+    "images/train_030.png",
+    "images/train_031.png"
+  ],
+  "test_frames": [
+    {
+      "file_path": "images/test_000.png",
+      "mse": 0.0004638053069356829,
+      "psnr_db": 33.33664286401574,
+      "foreground_mse": 0.0011773275909945369,
+      "foreground_psnr_db": 29.291026780520713,
+      "foreground_fraction": 0.36297607421875,
+      "mean_opacity": 0.37122848629951477
+    },
+    {
+      "file_path": "images/test_001.png",
+      "mse": 0.0001548977306811139,
+      "psnr_db": 38.09954944796567,
+      "foreground_mse": 0.0002682871709112078,
+      "foreground_psnr_db": 35.71400094140141,
+      "foreground_fraction": 0.41015625,
+      "mean_opacity": 0.41571134328842163
+    },
+    {
+      "file_path": "images/test_002.png",
+      "mse": 0.00039960574940778315,
+      "psnr_db": 33.98368271902232,
+      "foreground_mse": 0.0009982258779928088,
+      "foreground_psnr_db": 30.007711756802724,
+      "foreground_fraction": 0.364501953125,
+      "mean_opacity": 0.3699226677417755
+    },
+    {
+      "file_path": "images/test_003.png",
+      "mse": 0.00016922189388424158,
+      "psnr_db": 37.71543448755681,
+      "foreground_mse": 0.00025766133330762386,
+      "foreground_psnr_db": 35.88950750215468,
+      "foreground_fraction": 0.4156494140625,
+      "mean_opacity": 0.42139720916748047
+    }
+  ],
+  "average_psnr_db": 35.78382737964014,
+  "average_foreground_psnr_db": 32.72556174521988,
+  "elapsed_train_seconds": 26.96576762199402,
+  "peak_cuda_bytes": 183526912,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.9.0+cu128",
+  "cuda_version": "12.8",
+  "config": {
+    "input": "hw2/data/apple",
+    "output": "hw2/results/apple",
+    "device": "cuda",
+    "seed": 2503,
+    "steps": 10000,
+    "rays": 2048,
+    "grid": 64,
+    "channels": 8,
+    "bound": 0.65,
+    "samples": 64,
+    "near": 0.8999999761581421,
+    "far": 2.899999976158142,
+    "grid_lr": 0.08,
+    "density_lr": 0.12,
+    "mlp_lr": 0.005,
+    "train_views": null,
+    "mask_weight": 0.02,
+    "chunk": 2048,
+    "gif_frames": 48,
+    "gif_duration": 80,
+    "orbit_elevation": 20.0,
+    "log_every": 2000
+  },
+  "loss_history": [
+    {
+      "step": 1,
+      "loss": 0.08360979706048965,
+      "rgb_mse": 0.07664519548416138,
+      "mask_mse": 0.34823018312454224,
+      "elapsed_seconds": 0.73
+    },
+    {
+      "step": 2000,
+      "loss": 0.00032437831396237016,
+      "rgb_mse": 0.00029973412165418267,
+      "mask_mse": 0.0012322089169174433,
+      "elapsed_seconds": 6.04
+    },
+    {
+      "step": 4000,
+      "loss": 0.0002323812514077872,
+      "rgb_mse": 0.00021673696755897254,
+      "mask_mse": 0.0007822138722985983,
+      "elapsed_seconds": 10.78
+    },
+    {
+      "step": 6000,
+      "loss": 0.00020829288405366242,
+      "rgb_mse": 0.0001949444122146815,
+      "mask_mse": 0.0006674233009107411,
+      "elapsed_seconds": 16.55
+    },
+    {
+      "step": 8000,
+      "loss": 0.0001441851636627689,
+      "rgb_mse": 0.00013137901260051876,
+      "mask_mse": 0.0006403079023584723,
+      "elapsed_seconds": 21.68
+    },
+    {
+      "step": 10000,
+      "loss": 0.00015735866327304393,
+      "rgb_mse": 0.00014606138574890792,
+      "mask_mse": 0.0005648641381412745,
+      "elapsed_seconds": 26.97
+    }
+  ],
+  "note": "Known synthetic camera poses. Held-out images are not used for optimization."
+}

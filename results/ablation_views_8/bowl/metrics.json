@@ -1,0 +1,130 @@
+{
+  "method": "feature-grid NeRF: learned density and feature grids plus directional RGB MLP",
+  "source": "hw2\\data\\bowl",
+  "train_frames": [
+    "images/train_000.png",
+    "images/train_003.png",
+    "images/train_005.png",
+    "images/train_010.png",
+    "images/train_012.png",
+    "images/train_014.png",
+    "images/train_024.png",
+    "images/train_027.png"
+  ],
+  "test_frames": [
+    {
+      "file_path": "images/test_000.png",
+      "mse": 0.001215292257256806,
+      "psnr_db": 29.153192690196125,
+      "foreground_mse": 0.004929000977426767,
+      "foreground_psnr_db": 23.072410957241537,
+      "foreground_fraction": 0.2301025390625,
+      "mean_opacity": 0.2556668519973755
+    },
+    {
+      "file_path": "images/test_001.png",
+      "mse": 0.003114508232101798,
+      "psnr_db": 25.066105168843464,
+      "foreground_mse": 0.011155353859066963,
+      "foreground_psnr_db": 19.525166489029854,
+      "foreground_fraction": 0.27508544921875,
+      "mean_opacity": 0.2990412712097168
+    },
+    {
+      "file_path": "images/test_002.png",
+      "mse": 0.005183241795748472,
+      "psnr_db": 22.85398531058226,
+      "foreground_mse": 0.013562007807195187,
+      "foreground_psnr_db": 18.67676009950101,
+      "foreground_fraction": 0.37615966796875,
+      "mean_opacity": 0.3846408724784851
+    },
+    {
+      "file_path": "images/test_003.png",
+      "mse": 0.0031649274751544,
+      "psnr_db": 24.996362374637265,
+      "foreground_mse": 0.012043704278767109,
+      "foreground_psnr_db": 19.192399166993273,
+      "foreground_fraction": 0.2548828125,
+      "mean_opacity": 0.27848878502845764
+    }
+  ],
+  "average_psnr_db": 25.51741138606478,
+  "average_foreground_psnr_db": 20.116684178191417,
+  "elapsed_train_seconds": 31.00054430961609,
+  "peak_cuda_bytes": 164602368,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.9.0+cu128",
+  "cuda_version": "12.8",
+  "config": {
+    "input": "hw2/data/bowl",
+    "output": "hw2/results/ablation_views_8/bowl",
+    "device": "cuda",
+    "seed": 2503,
+    "steps": 10000,
+    "rays": 2048,
+    "grid": 64,
+    "channels": 8,
+    "bound": 0.65,
+    "samples": 64,
+    "near": 0.8999999761581421,
+    "far": 2.899999976158142,
+    "grid_lr": 0.08,
+    "density_lr": 0.12,
+    "mlp_lr": 0.005,
+    "train_views": 8,
+    "mask_weight": 0.02,
+    "no_model": true,
+    "chunk": 2048,
+    "gif_frames": 0,
+    "gif_duration": 80,
+    "orbit_elevation": 20.0,
+    "log_every": 2000
+  },
+  "loss_history": [
+    {
+      "step": 1,
+      "loss": 0.014431189745664597,
+      "rgb_mse": 0.007363754324615002,
+      "mask_mse": 0.353371798992157,
+      "elapsed_seconds": 0.73
+    },
+    {
+      "step": 2000,
+      "loss": 0.00013873790157958865,
+      "rgb_mse": 6.277545617194846e-05,
+      "mask_mse": 0.003798122052103281,
+      "elapsed_seconds": 6.46
+    },
+    {
+      "step": 4000,
+      "loss": 0.00011316118616377935,
+      "rgb_mse": 5.1315400924067944e-05,
+      "mask_mse": 0.003092289436608553,
+      "elapsed_seconds": 12.47
+    },
+    {
+      "step": 6000,
+      "loss": 8.879923552740365e-05,
+      "rgb_mse": 3.6611596442526206e-05,
+      "mask_mse": 0.0026093819178640842,
+      "elapsed_seconds": 18.96
+    },
+    {
+      "step": 8000,
+      "loss": 9.813741780817509e-05,
+      "rgb_mse": 3.5392320569371805e-05,
+      "mask_mse": 0.003137254621833563,
+      "elapsed_seconds": 24.64
+    },
+    {
+      "step": 10000,
+      "loss": 7.979264773894101e-05,
+      "rgb_mse": 3.187203765264712e-05,
+      "mask_mse": 0.0023960303515195847,
+      "elapsed_seconds": 31.0
+    }
+  ],
+  "note": "Known synthetic camera poses. Held-out images are not used for optimization."
+}

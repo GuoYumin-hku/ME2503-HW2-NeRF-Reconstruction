@@ -1,0 +1,15 @@
+{
+  "description": "Exact copy of existing course HW1 code for standalone HW2 data preparation. No upstream implementation changes.",
+  "files": [
+    {
+      "original_path": "hw1/geometry.py",
+      "vendored_path": "hw2/vendor/hw1_normalization/geometry.py",
+      "sha256": "68c892ff8869cb754d6ecd641cc96333146dabd6cd99aa83a0778c65f31c5b54"
+    },
+    {
+      "original_path": "hw1/normalize.py",
+      "vendored_path": "hw2/vendor/hw1_normalization/normalize.py",
+      "sha256": "ff1fb161cb63f56d5d365078eafa91f164e3e2de1348a78b5b31a07c62214d06"
+    }
+  ]
+}

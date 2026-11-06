@@ -1,0 +1,15 @@
+# Regenerable local normalized GLBs; original source assets are not redistributed.
+.local_assets/
+
+# Scratch pilots and interpreter/build caches.
+/experiments/
+matches/experiments/akaze080/
+matches/experiments/orb080/
+matches/experiments/orb_080/
+matches/experiments/sift085/
+matches/experiments/sift090/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log

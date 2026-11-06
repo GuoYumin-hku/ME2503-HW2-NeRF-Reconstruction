@@ -1,0 +1,13 @@
+{
+  "object": "mug",
+  "quality_checked": false,
+  "trial": "orb_090_more_pairs",
+  "source_pair_json": "matches/experiments/orb_090_100/mug/pair_028_029.json",
+  "pair": "pair_028_029",
+  "detector": "orb",
+  "mutual_matches": 23,
+  "fundamental_inliers": 18,
+  "calibrated_consistent_inliers": 1,
+  "calibrated_median_error_px": 14.296548121031229,
+  "status": "estimated"
+}

@@ -1,0 +1,191 @@
+{
+  "image_1": "images/train_015.png",
+  "image_2": "images/train_023.png",
+  "split": "train",
+  "keypoints_1": 47,
+  "keypoints_2": 52,
+  "ratio_mutual_count": 6,
+  "ransac_inliers": 0,
+  "status": "insufficient_correspondences",
+  "fundamental_matrix": null,
+  "estimated_essential_matrix": null,
+  "essential_inliers": 0,
+  "ratio_threshold": 0.9,
+  "ransac_threshold_pixels": 1.5,
+  "ransac_confidence": 0.999,
+  "ransac_max_iterations": 10000,
+  "coordinate_convention": "original-image pixels, x right and y down, x2.T F x1 = 0",
+  "correspondences": [
+    {
+      "keypoint_1_index": 46,
+      "keypoint_2_index": 40,
+      "xy_1": [
+        71.66363525390625,
+        93.16272735595703
+      ],
+      "xy_2": [
+        70.50241088867188,
+        103.68001556396484
+      ],
+      "descriptor_distance": 31.0,
+      "forward_lowe_ratio": 0.8378378378378378,
+      "fundamental_ransac_inlier": false,
+      "essential_ransac_inlier": false,
+      "estimated_sampson_pixels": null,
+      "calibrated_sampson_pixels": 0.38792474011814426
+    },
+    {
+      "keypoint_1_index": 21,
+      "keypoint_2_index": 14,
+      "xy_1": [
+        70.56000518798828,
+        96.4800033569336
+      ],
+      "xy_2": [
+        69.0,
+        106.0
+      ],
+      "descriptor_distance": 34.0,
+      "forward_lowe_ratio": 0.7391304347826086,
+      "fundamental_ransac_inlier": false,
+      "essential_ransac_inlier": false,
+      "estimated_sampson_pixels": null,
+      "calibrated_sampson_pixels": 0.7204167302357949
+    },
+    {
+      "keypoint_1_index": 19,
+      "keypoint_2_index": 12,
+      "xy_1": [
+        27.360000610351562,
+        84.96000671386719
+      ],
+      "xy_2": [
+        28.0,
+        86.0
+      ],
+      "descriptor_distance": 40.0,
+      "forward_lowe_ratio": 0.8695652173913043,
+      "fundamental_ransac_inlier": false,
+      "essential_ransac_inlier": false,
+      "estimated_sampson_pixels": null,
+      "calibrated_sampson_pixels": 0.9229249995568823
+    },
+    {
+      "keypoint_1_index": 13,
+      "keypoint_2_index": 48,
+      "xy_1": [
+        55.20000076293945,
+        102.00000762939453
+      ],
+      "xy_2": [
+        35.831817626953125,
+        42.99818420410156
+      ],
+      "descriptor_distance": 42.0,
+      "forward_lowe_ratio": 0.7636363636363637,
+      "fundamental_ransac_inlier": false,
+      "essential_ransac_inlier": false,
+      "estimated_sampson_pixels": null,
+      "calibrated_sampson_pixels": 13.957481209871327
+    },
+    {
+      "keypoint_1_index": 32,
+      "keypoint_2_index": 10,
+      "xy_1": [
+        97.45921325683594,
+        85.01760864257812
+      ],
+      "xy_2": [
+        70.0,
+        68.0
+      ],
+      "descriptor_distance": 42.0,
+      "forward_lowe_ratio": 0.8936170212765957,
+      "fundamental_ransac_inlier": false,
+      "essential_ransac_inlier": false,
+      "estimated_sampson_pixels": null,
+      "calibrated_sampson_pixels": 18.97532957361193
+    },
+    {
+      "keypoint_1_index": 4,
+      "keypoint_2_index": 11,
+      "xy_1": [
+        99.0,
+        86.0
+      ],
+      "xy_2": [
+        98.0,
+        82.0
+      ],
+      "descriptor_distance": 49.0,
+      "forward_lowe_ratio": 0.5975609756097561,
+      "fundamental_ransac_inlier": false,
+      "essential_ransac_inlier": false,
+      "estimated_sampson_pixels": null,
+      "calibrated_sampson_pixels": 0.5061020057659433
+    }
+  ],
+  "inlier_ratio": 0.0,
+  "calibrated_diagnostic": {
+    "note": "Known Blender camera diagnostic only; does not establish estimated SfM poses.",
+    "K_1": [
+      [
+        177.77777777777777,
+        0.0,
+        64.0
+      ],
+      [
+        0.0,
+        177.77777777777777,
+        64.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "K_2": [
+      [
+        177.77777777777777,
+        0.0,
+        64.0
+      ],
+      [
+        0.0,
+        177.77777777777777,
+        64.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fundamental_matrix": [
+      [
+        -8.608287026117177e-12,
+        0.00012090290000875004,
+        0.08921465080117177
+      ],
+      [
+        0.00012090272822474125,
+        2.5478373447116143e-11,
+        -0.007737760797937946
+      ],
+      [
+        -0.10469021197501481,
+        -0.007737793129211657,
+        0.9904347176767352
+      ]
+    ],
+    "median_sampson_pixels_all_matches": 0.8216708648963387,
+    "median_sampson_pixels_ransac_inliers": null,
+    "within_threshold_all_matches": 4,
+    "within_threshold_ransac_inliers": 0
+  },
+  "pair": "pair_015_023",
+  "camera_baseline_angle_degrees": 24.99999946588941,
+  "detector": "orb",
+  "descriptor_distance_metric": "Hamming"
+}

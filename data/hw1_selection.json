@@ -1,0 +1,2303 @@
+{
+  "description": "Unchanged relevant fields from preserved HW1 index and tier records",
+  "selections": [
+    {
+      "category": "mug",
+      "index_record": {
+        "uid": "de23895b6e9b4cfd870e30d14c2150dd",
+        "shard": "000-009",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-009\\de23895b6e9b4cfd870e30d14c2150dd.glb",
+        "sha256": "98b8369a06031e6395f5cf00a59b1ba350fa75a414e41b7e358a1884c841ceab",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 364,
+            "triangles": 262,
+            "unique_triangles": 262,
+            "unique_vertices": 364,
+            "degenerate_triangles": 0,
+            "mesh_instances": 2,
+            "primitive_instances": 2,
+            "unique_primitives": 2,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 2
+            },
+            "bbox_min": [
+              -508.1966473884313,
+              -517.7069091796876,
+              -508.1966473884314
+            ],
+            "bbox_max": [
+              868.3446024230216,
+              517.7069091796876,
+              508.1966473884314
+            ],
+            "extents": [
+              1376.5412498114529,
+              1035.4138183593752,
+              1016.3932947768628
+            ],
+            "center": [
+              180.07397751729513,
+              0.0,
+              0.0
+            ],
+            "max_dim": 1376.5412498114529
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 0,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\de23895b6e9b4cfd870e30d14c2150dd.glb",
+          "sha256": "9b4ba7724f2662a75d70ae521790b39d971e3c800cab8dbd40ef9f9b246b4179",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 5,
+            "source_center": [
+              180.07397751729513,
+              0.0,
+              0.0
+            ],
+            "source_max_dim": 1376.5412498114529,
+            "scale": 0.0007264584335100541,
+            "translation": [
+              -0.13081625962313892,
+              -0.0,
+              -0.0
+            ],
+            "inverse": {
+              "scale": 1376.5412498114529,
+              "translation": [
+                180.07397751729513,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 364,
+              "triangles": 262,
+              "unique_triangles": 262,
+              "unique_vertices": 364,
+              "degenerate_triangles": 0,
+              "mesh_instances": 2,
+              "primitive_instances": 2,
+              "unique_primitives": 2,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 2
+              },
+              "bbox_min": [
+                -0.5,
+                -0.37609255026000765,
+                -0.3691837403768612
+              ],
+              "bbox_max": [
+                0.5,
+                0.37609255026000765,
+                0.3691837403768612
+              ],
+              "extents": [
+                1.0,
+                0.7521851005200153,
+                0.7383674807537224
+              ],
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 0,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "memory_guarded",
+            "heap_limit_mib": 4096,
+            "timeout_seconds": null,
+            "issue_counts": {},
+            "issue_examples": {},
+            "message_count": 0,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Mug",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/de23895b6e9b4cfd870e30d14c2150dd",
+          "user": {
+            "displayName": "Jiří Kuba",
+            "profileUrl": "https://sketchfab.com/kuba.jirka",
+            "username": "kuba.jirka"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "de23895b6e9b4cfd870e30d14c2150dd",
+        "rule_version": "curation-v1",
+        "shard": "000-009",
+        "source_sha256": "98b8369a06031e6395f5cf00a59b1ba350fa75a414e41b7e358a1884c841ceab",
+        "tier": "core",
+        "reasons": [],
+        "flags": [],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "apple",
+      "index_record": {
+        "uid": "e3173857f9384aa4928daeabff75da44",
+        "shard": "000-006",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-006\\e3173857f9384aa4928daeabff75da44.glb",
+        "sha256": "b1d99ec3aa8d528ce1bb2e70a2704e2670d12d1fe9dc09c99c6956b6e7be90fd",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 3106,
+            "triangles": 5880,
+            "unique_triangles": 5880,
+            "unique_vertices": 3106,
+            "degenerate_triangles": 0,
+            "mesh_instances": 1,
+            "primitive_instances": 1,
+            "unique_primitives": 1,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 1
+            },
+            "bbox_min": [
+              -2.0376429557800293,
+              5.144931061181824e-16,
+              -3.9010779857635494
+            ],
+            "bbox_max": [
+              2.0159149169921875,
+              4.000000000000001,
+              -0.45200800895690885
+            ],
+            "extents": [
+              4.053557872772217,
+              4.0,
+              3.4490699768066406
+            ],
+            "center": [
+              -0.010864019393920898,
+              2.000000000000001,
+              -2.176542997360229
+            ],
+            "max_dim": 4.053557872772217
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 1,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\e3173857f9384aa4928daeabff75da44.glb",
+          "sha256": "0aff34a2232bd42f86896bbe7b5d91ce4addfbfcb8181ac7e09d3d6977bb89aa",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 3,
+            "source_center": [
+              -0.010864019393920898,
+              2.000000000000001,
+              -2.176542997360229
+            ],
+            "source_max_dim": 4.053557872772217,
+            "scale": 0.24669686023653656,
+            "translation": [
+              0.0026801194740291266,
+              -0.49339372047307334,
+              0.5369463236185887
+            ],
+            "inverse": {
+              "scale": 4.053557872772217,
+              "translation": [
+                -0.010864019393920898,
+                2.000000000000001,
+                -2.176542997360229
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 3106,
+              "triangles": 5880,
+              "unique_triangles": 5880,
+              "unique_vertices": 3106,
+              "degenerate_triangles": 0,
+              "mesh_instances": 1,
+              "primitive_instances": 1,
+              "unique_primitives": 1,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 1
+              },
+              "bbox_min": [
+                -0.5,
+                -0.4933937204730732,
+                -0.4254373670071512
+              ],
+              "bbox_max": [
+                0.5,
+                0.493393720473073,
+                0.42543736700715107
+              ],
+              "extents": [
+                1.0,
+                0.9867874409461462,
+                0.8508747340143022
+              ],
+              "center": [
+                0.0,
+                -1.1102230246251565e-16,
+                -5.551115123125783e-17
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 1,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "memory_guarded",
+            "heap_limit_mib": 4096,
+            "timeout_seconds": null,
+            "issue_counts": {},
+            "issue_examples": {},
+            "message_count": 0,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Apple",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/e3173857f9384aa4928daeabff75da44",
+          "user": {
+            "displayName": "hannkomaki",
+            "profileUrl": "https://sketchfab.com/hannkomaki",
+            "username": "hannkomaki"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "e3173857f9384aa4928daeabff75da44",
+        "rule_version": "curation-v1",
+        "shard": "000-006",
+        "source_sha256": "b1d99ec3aa8d528ce1bb2e70a2704e2670d12d1fe9dc09c99c6956b6e7be90fd",
+        "tier": "core",
+        "reasons": [],
+        "flags": [
+          "metadata_poor"
+        ],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "chair",
+      "index_record": {
+        "uid": "019131b6267246bfa44afe60eca5cceb",
+        "shard": "000-000",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-000\\019131b6267246bfa44afe60eca5cceb.glb",
+        "sha256": "91c4af4d5a3d6780551e63fb97c9aae4c8d99c87ac7fcf29d9b8f1456b040eb6",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 540,
+            "triangles": 336,
+            "unique_triangles": 336,
+            "unique_vertices": 540,
+            "degenerate_triangles": 0,
+            "mesh_instances": 1,
+            "primitive_instances": 1,
+            "unique_primitives": 1,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 1
+            },
+            "bbox_min": [
+              -1.0054600238800049,
+              0.008179999887943058,
+              -0.9999999999999996
+            ],
+            "bbox_max": [
+              1.0054600238800049,
+              5.721049785614014,
+              1.0000000000000004
+            ],
+            "extents": [
+              2.0109200477600098,
+              5.71286978572607,
+              2.0
+            ],
+            "center": [
+              0.0,
+              2.8646148927509785,
+              4.440892098500626e-16
+            ],
+            "max_dim": 5.71286978572607
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 1,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\019131b6267246bfa44afe60eca5cceb.glb",
+          "sha256": "03d59c5b1b60c7cd9de46735966266f1fd8a3723812b209b86f5fd6da2f5b73f",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 4,
+            "source_center": [
+              0.0,
+              2.8646148927509785,
+              4.440892098500626e-16
+            ],
+            "source_max_dim": 5.71286978572607,
+            "scale": 0.1750433735595649,
+            "translation": [
+              -0.0,
+              -0.5014318547761024,
+              -7.773487345355652e-17
+            ],
+            "inverse": {
+              "scale": 5.71286978572607,
+              "translation": [
+                0.0,
+                2.8646148927509785,
+                4.440892098500626e-16
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 540,
+              "triangles": 336,
+              "unique_triangles": 336,
+              "unique_vertices": 540,
+              "degenerate_triangles": 0,
+              "mesh_instances": 1,
+              "primitive_instances": 1,
+              "unique_primitives": 1,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 1
+              },
+              "bbox_min": [
+                -0.17599911455923672,
+                -0.5,
+                -0.1750433735595649
+              ],
+              "bbox_max": [
+                0.17599911455923672,
+                0.5000000000000001,
+                0.1750433735595649
+              ],
+              "extents": [
+                0.35199822911847345,
+                1.0,
+                0.3500867471191298
+              ],
+              "center": [
+                0.0,
+                5.551115123125783e-17,
+                0.0
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 1,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "unrestricted",
+            "heap_limit_mib": 65291,
+            "timeout_seconds": null,
+            "issue_counts": {
+              "2": {
+                "UNUSED_OBJECT": 1
+              }
+            },
+            "issue_examples": {
+              "UNUSED_OBJECT": [
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+                }
+              ]
+            },
+            "message_count": 1,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Wooden simple chair",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/019131b6267246bfa44afe60eca5cceb",
+          "user": {
+            "displayName": "Karyu",
+            "profileUrl": "https://sketchfab.com/karyu.lucca",
+            "username": "karyu.lucca"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "019131b6267246bfa44afe60eca5cceb",
+        "rule_version": "curation-v1",
+        "shard": "000-000",
+        "source_sha256": "91c4af4d5a3d6780551e63fb97c9aae4c8d99c87ac7fcf29d9b8f1456b040eb6",
+        "tier": "core",
+        "reasons": [],
+        "flags": [],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "table",
+      "index_record": {
+        "uid": "c801881f25e34327bac908af98051914",
+        "shard": "000-004",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-004\\c801881f25e34327bac908af98051914.glb",
+        "sha256": "9c3dbf607b57d5ce639221bb920ca34dddd3fe2348c410d1bcef6b6ced0e77b7",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 272,
+            "triangles": 140,
+            "unique_triangles": 140,
+            "unique_vertices": 272,
+            "degenerate_triangles": 0,
+            "mesh_instances": 2,
+            "primitive_instances": 2,
+            "unique_primitives": 2,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 2
+            },
+            "bbox_min": [
+              -1.1920928955078125e-06,
+              -1.7918698942913014e-05,
+              -110.00001332481801
+            ],
+            "bbox_max": [
+              110.0000011920929,
+              42.600012132349704,
+              1.4038890796541637e-06
+            ],
+            "extents": [
+              110.00000238418579,
+              42.60003005104865,
+              110.0000147287071
+            ],
+            "center": [
+              55.0,
+              21.29999710682538,
+              -55.00000596046446
+            ],
+            "max_dim": 110.0000147287071
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 0,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\c801881f25e34327bac908af98051914.glb",
+          "sha256": "cd4e190bf4e92a1a576b8e5f9dcf0cfd47ec7d901a9aa7ab17ac0e1a39f75991",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 7,
+            "source_center": [
+              55.0,
+              21.29999710682538,
+              -55.00000596046446
+            ],
+            "source_max_dim": 110.0000147287071,
+            "scale": 0.009090907873660733,
+            "translation": [
+              -0.49999993305134033,
+              -0.19363631140738968,
+              0.4999999872373736
+            ],
+            "inverse": {
+              "scale": 110.0000147287071,
+              "translation": [
+                55.0,
+                21.29999710682538,
+                -55.00000596046446
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 272,
+              "triangles": 140,
+              "unique_triangles": 140,
+              "unique_vertices": 272,
+              "degenerate_triangles": 0,
+              "mesh_instances": 2,
+              "primitive_instances": 2,
+              "unique_primitives": 2,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 2
+              },
+              "bbox_min": [
+                -0.499999943888547,
+                -0.193636474304631,
+                -0.5
+              ],
+              "bbox_max": [
+                0.499999943888547,
+                0.193636474304631,
+                0.49999999999999994
+              ],
+              "extents": [
+                0.999999887777094,
+                0.387272948609262,
+                1.0
+              ],
+              "center": [
+                0.0,
+                0.0,
+                -2.7755575615628914e-17
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 0,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "unrestricted",
+            "heap_limit_mib": 65291,
+            "timeout_seconds": null,
+            "issue_counts": {
+              "2": {
+                "UNUSED_OBJECT": 2
+              }
+            },
+            "issue_examples": {
+              "UNUSED_OBJECT": [
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                }
+              ]
+            },
+            "message_count": 2,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Cofee Table",
+          "license": "by-nc",
+          "viewerUrl": "https://sketchfab.com/3d-models/c801881f25e34327bac908af98051914",
+          "user": {
+            "displayName": "Dream_Harvest",
+            "profileUrl": "https://sketchfab.com/Dream_Harvest",
+            "username": "Dream_Harvest"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "c801881f25e34327bac908af98051914",
+        "rule_version": "curation-v1",
+        "shard": "000-004",
+        "source_sha256": "9c3dbf607b57d5ce639221bb920ca34dddd3fe2348c410d1bcef6b6ced0e77b7",
+        "tier": "core",
+        "reasons": [],
+        "flags": [
+          "license_nc",
+          "metadata_poor"
+        ],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": false,
+          "noncommercial": true,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "bowl",
+      "index_record": {
+        "uid": "11a459d53cd04ff69da21d96ce848aec",
+        "shard": "000-007",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-007\\11a459d53cd04ff69da21d96ce848aec.glb",
+        "sha256": "a07aea03d17a865c50af996f8128f031222cab17ad0454c97fbf6bc79cef4bb9",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 1599,
+            "triangles": 3078,
+            "unique_triangles": 3078,
+            "unique_vertices": 1599,
+            "degenerate_triangles": 0,
+            "mesh_instances": 1,
+            "primitive_instances": 1,
+            "unique_primitives": 1,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 1
+            },
+            "bbox_min": [
+              -1.0760799467743354,
+              -1.2333281792842907,
+              -13.608433839561627
+            ],
+            "bbox_max": [
+              3.5274620852695207,
+              0.9835969349534075,
+              -8.975355588667929
+            ],
+            "extents": [
+              4.6035420320438565,
+              2.2169251142376982,
+              4.633078250893698
+            ],
+            "center": [
+              1.2256910692475926,
+              -0.12486562216544161,
+              -11.291894714114779
+            ],
+            "max_dim": 4.633078250893698
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [
+              "KHR_materials_clearcoat"
+            ],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 3,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\11a459d53cd04ff69da21d96ce848aec.glb",
+          "sha256": "2bda2c6e2dddc553fa30a5910abe8bf2873c11640eec72c1af3df228d163b4b5",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 3,
+            "source_center": [
+              1.2256910692475926,
+              -0.12486562216544161,
+              -11.291894714114779
+            ],
+            "source_max_dim": 4.633078250893698,
+            "scale": 0.2158392208910145,
+            "translation": [
+              -0.2645522054394749,
+              0.026950898604260712,
+              2.437233757477899
+            ],
+            "inverse": {
+              "scale": 4.633078250893698,
+              "translation": [
+                1.2256910692475926,
+                -0.12486562216544161,
+                -11.291894714114779
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 1599,
+              "triangles": 3078,
+              "unique_triangles": 3078,
+              "unique_vertices": 1599,
+              "degenerate_triangles": 0,
+              "mesh_instances": 1,
+              "primitive_instances": 1,
+              "unique_primitives": 1,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 1
+              },
+              "bbox_min": [
+                -0.49681246276769175,
+                -0.2392496947153937,
+                -0.5
+              ],
+              "bbox_max": [
+                0.4968124627676918,
+                0.23924969471539415,
+                0.5000000000000002
+              ],
+              "extents": [
+                0.9936249255353835,
+                0.47849938943078785,
+                1.0000000000000002
+              ],
+              "center": [
+                2.7755575615628914e-17,
+                2.220446049250313e-16,
+                1.1102230246251565e-16
+              ],
+              "max_dim": 1.0000000000000002
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [
+                "KHR_materials_clearcoat"
+              ],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 3,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "memory_guarded",
+            "heap_limit_mib": 4096,
+            "timeout_seconds": null,
+            "issue_counts": {},
+            "issue_examples": {},
+            "message_count": 0,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Bowl test. Hi - spec",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/11a459d53cd04ff69da21d96ce848aec",
+          "user": {
+            "displayName": "Noz'aj",
+            "profileUrl": "https://sketchfab.com/nozaj",
+            "username": "nozaj"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "11a459d53cd04ff69da21d96ce848aec",
+        "rule_version": "curation-v1",
+        "shard": "000-007",
+        "source_sha256": "a07aea03d17a865c50af996f8128f031222cab17ad0454c97fbf6bc79cef4bb9",
+        "tier": "core",
+        "reasons": [],
+        "flags": [
+          "metadata_poor"
+        ],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "bottle",
+      "index_record": {
+        "uid": "39b092718d1b4068abba42ea00cee691",
+        "shard": "000-003",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-003\\39b092718d1b4068abba42ea00cee691.glb",
+        "sha256": "277ff23e11c6b2b0572ce9ac78ee9c19b43afded6477d47ab0162f514895e931",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 444,
+            "triangles": 400,
+            "unique_triangles": 400,
+            "unique_vertices": 444,
+            "degenerate_triangles": 0,
+            "mesh_instances": 1,
+            "primitive_instances": 1,
+            "unique_primitives": 1,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 1
+            },
+            "bbox_min": [
+              -2.0095396041870117,
+              -1.0004427314965789e-12,
+              -2.00954008102417
+            ],
+            "bbox_max": [
+              2.0095391273498535,
+              12.20294470899944,
+              2.0095393657684326
+            ],
+            "extents": [
+              4.019078731536865,
+              12.20294470900044,
+              4.0190794467926025
+            ],
+            "center": [
+              -2.384185791015625e-07,
+              6.1014723544992195,
+              -3.5762786865234375e-07
+            ],
+            "max_dim": 12.20294470900044
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 0,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\39b092718d1b4068abba42ea00cee691.glb",
+          "sha256": "59b8cc2147990ea58d09710d517aef9a312ad88bcf43d484c267d5a5aa45ad82",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 5,
+            "source_center": [
+              -2.384185791015625e-07,
+              6.1014723544992195,
+              -3.5762786865234375e-07
+            ],
+            "source_max_dim": 12.20294470900044,
+            "scale": 0.08194743349631316,
+            "translation": [
+              1.953779065521077e-08,
+              -0.49999999999991807,
+              2.9306685982816155e-08
+            ],
+            "inverse": {
+              "scale": 12.20294470900044,
+              "translation": [
+                -2.384185791015625e-07,
+                6.1014723544992195,
+                -3.5762786865234375e-07
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 444,
+              "triangles": 400,
+              "unique_triangles": 400,
+              "unique_vertices": 444,
+              "degenerate_triangles": 0,
+              "mesh_instances": 1,
+              "primitive_instances": 1,
+              "unique_primitives": 1,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 1
+              },
+              "bbox_min": [
+                -0.16467659353453196,
+                -0.5,
+                -0.16467662284121792
+              ],
+              "bbox_max": [
+                0.16467659353453196,
+                0.5,
+                0.16467662284121795
+              ],
+              "extents": [
+                0.3293531870690639,
+                1.0,
+                0.32935324568243585
+              ],
+              "center": [
+                0.0,
+                0.0,
+                1.3877787807814457e-17
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 0,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "unrestricted",
+            "heap_limit_mib": 65291,
+            "timeout_seconds": null,
+            "issue_counts": {
+              "2": {
+                "UNUSED_OBJECT": 1
+              }
+            },
+            "issue_examples": {
+              "UNUSED_OBJECT": [
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                }
+              ]
+            },
+            "message_count": 1,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Bottle Export",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/39b092718d1b4068abba42ea00cee691",
+          "user": {
+            "displayName": "Neonhuo",
+            "profileUrl": "https://sketchfab.com/neonhuo",
+            "username": "neonhuo"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "39b092718d1b4068abba42ea00cee691",
+        "rule_version": "curation-v1",
+        "shard": "000-003",
+        "source_sha256": "277ff23e11c6b2b0572ce9ac78ee9c19b43afded6477d47ab0162f514895e931",
+        "tier": "core",
+        "reasons": [],
+        "flags": [
+          "metadata_poor"
+        ],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "banana",
+      "index_record": {
+        "uid": "03c53bd7f7644377996e5b2437ff93cb",
+        "shard": "000-000",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-000\\03c53bd7f7644377996e5b2437ff93cb.glb",
+        "sha256": "16da34dc111395e1fd53732afa619d65ef754b411dc94492bfb81cb3fcdabcda",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 450,
+            "triangles": 864,
+            "unique_triangles": 864,
+            "unique_vertices": 450,
+            "degenerate_triangles": 0,
+            "mesh_instances": 1,
+            "primitive_instances": 1,
+            "unique_primitives": 1,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 1
+            },
+            "bbox_min": [
+              0.13655415177345276,
+              -0.03486885502934458,
+              -0.014353558421134949
+            ],
+            "bbox_max": [
+              0.44025033712387085,
+              0.034872591495513895,
+              0.1293567568063736
+            ],
+            "extents": [
+              0.3036961853504181,
+              0.06974144652485847,
+              0.14371031522750854
+            ],
+            "center": [
+              0.2884022444486618,
+              1.8682330846578332e-06,
+              0.057501599192619324
+            ],
+            "max_dim": 0.3036961853504181
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 1,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\03c53bd7f7644377996e5b2437ff93cb.glb",
+          "sha256": "67d7872fd62886f661674d8d72a9e8d5cd28db4e3ea21948f9a656fd21723d27",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 3,
+            "source_center": [
+              0.2884022444486618,
+              1.8682330846578332e-06,
+              0.057501599192619324
+            ],
+            "source_max_dim": 0.3036961853504181,
+            "scale": 3.292764441035556,
+            "translation": [
+              -0.9496406552353976,
+              -6.151651468727483e-06,
+              -0.18933922112413576
+            ],
+            "inverse": {
+              "scale": 0.3036961853504181,
+              "translation": [
+                0.2884022444486618,
+                1.8682330846578332e-06,
+                0.057501599192619324
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 450,
+              "triangles": 864,
+              "unique_triangles": 864,
+              "unique_vertices": 450,
+              "degenerate_triangles": 0,
+              "mesh_instances": 1,
+              "primitive_instances": 1,
+              "unique_primitives": 1,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 1
+              },
+              "bbox_min": [
+                -0.5,
+                -0.11482107759171836,
+                -0.23660210789557537
+              ],
+              "bbox_max": [
+                0.5000000000000001,
+                0.11482107759171838,
+                0.23660210789557534
+              ],
+              "extents": [
+                1.0,
+                0.22964215518343672,
+                0.4732042157911507
+              ],
+              "center": [
+                5.551115123125783e-17,
+                6.938893903907228e-18,
+                -1.3877787807814457e-17
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 1,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "unrestricted",
+            "heap_limit_mib": 65291,
+            "timeout_seconds": null,
+            "issue_counts": {},
+            "issue_examples": {},
+            "message_count": 0,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "low poly banana FREE",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/03c53bd7f7644377996e5b2437ff93cb",
+          "user": {
+            "displayName": "Madeline Rosenblum",
+            "profileUrl": "https://sketchfab.com/AMurderOfCrows",
+            "username": "AMurderOfCrows"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "03c53bd7f7644377996e5b2437ff93cb",
+        "rule_version": "curation-v1",
+        "shard": "000-000",
+        "source_sha256": "16da34dc111395e1fd53732afa619d65ef754b411dc94492bfb81cb3fcdabcda",
+        "tier": "core",
+        "reasons": [],
+        "flags": [],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "box",
+      "index_record": {
+        "uid": "21cf6af4cb5a419ca00728253d290b3a",
+        "shard": "000-008",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-008\\21cf6af4cb5a419ca00728253d290b3a.glb",
+        "sha256": "3deadc214e4f550d6e9453f24693601cc8dd1dc87b21906028deb34c88220a94",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 216,
+            "triangles": 108,
+            "unique_triangles": 108,
+            "unique_vertices": 216,
+            "degenerate_triangles": 0,
+            "mesh_instances": 1,
+            "primitive_instances": 1,
+            "unique_primitives": 1,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 1
+            },
+            "bbox_min": [
+              -0.9999999776482582,
+              -1.0000001405689205,
+              -1.0000001405689205
+            ],
+            "bbox_max": [
+              0.9999999776482582,
+              1.0000001405689205,
+              1.0000001405689205
+            ],
+            "extents": [
+              1.9999999552965164,
+              2.000000281137841,
+              2.000000281137841
+            ],
+            "center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_dim": 2.000000281137841
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 0,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\21cf6af4cb5a419ca00728253d290b3a.glb",
+          "sha256": "8b5f6727a10ef810f5851b16950e97bb17c4ddb1b8838739d5f3e7199ac7979d",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 5,
+            "source_center": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "source_max_dim": 2.000000281137841,
+            "scale": 0.49999992971554963,
+            "translation": [
+              -0.0,
+              -0.0,
+              -0.0
+            ],
+            "inverse": {
+              "scale": 2.000000281137841,
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 216,
+              "triangles": 108,
+              "unique_triangles": 108,
+              "unique_vertices": 216,
+              "degenerate_triangles": 0,
+              "mesh_instances": 1,
+              "primitive_instances": 1,
+              "unique_primitives": 1,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 1
+              },
+              "bbox_min": [
+                -0.4999999185396803,
+                -0.5,
+                -0.5
+              ],
+              "bbox_max": [
+                0.4999999185396803,
+                0.5,
+                0.5
+              ],
+              "extents": [
+                0.9999998370793606,
+                1.0,
+                1.0
+              ],
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 0,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "memory_guarded",
+            "heap_limit_mib": 4096,
+            "timeout_seconds": null,
+            "issue_counts": {
+              "2": {
+                "UNUSED_OBJECT": 1
+              }
+            },
+            "issue_examples": {
+              "UNUSED_OBJECT": [
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                }
+              ]
+            },
+            "message_count": 1,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Box",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/21cf6af4cb5a419ca00728253d290b3a",
+          "user": {
+            "displayName": "TomaszObloj",
+            "profileUrl": "https://sketchfab.com/tomasz_obloj",
+            "username": "tomasz_obloj"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "21cf6af4cb5a419ca00728253d290b3a",
+        "rule_version": "curation-v1",
+        "shard": "000-008",
+        "source_sha256": "3deadc214e4f550d6e9453f24693601cc8dd1dc87b21906028deb34c88220a94",
+        "tier": "core",
+        "reasons": [],
+        "flags": [],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "plate",
+      "index_record": {
+        "uid": "4357b57e23a945d98bda7bd57b68fd28",
+        "shard": "000-004",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-004\\4357b57e23a945d98bda7bd57b68fd28.glb",
+        "sha256": "3b11bc570fd46ff5b86bd551aaa13d8bf6f468080c6880e26f8c923492acbaf9",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 418,
+            "triangles": 752,
+            "unique_triangles": 752,
+            "unique_vertices": 418,
+            "degenerate_triangles": 0,
+            "mesh_instances": 1,
+            "primitive_instances": 1,
+            "unique_primitives": 1,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 1
+            },
+            "bbox_min": [
+              -1.0,
+              -1.0000000016424588,
+              -0.07102061944432743
+            ],
+            "bbox_max": [
+              1.0,
+              0.9999999983575392,
+              0.07102064034112525
+            ],
+            "extents": [
+              2.0,
+              1.999999999999998,
+              0.14204125978545268
+            ],
+            "center": [
+              0.0,
+              -1.6424598348052655e-09,
+              1.0448398909956857e-08
+            ],
+            "max_dim": 2.0
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 3,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\4357b57e23a945d98bda7bd57b68fd28.glb",
+          "sha256": "9265d643b44b2b2aaf8aa7a18b9e9bf7cf1f0b3a45b82cae4775e4e8e8198900",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 4,
+            "source_center": [
+              0.0,
+              -1.6424598348052655e-09,
+              1.0448398909956857e-08
+            ],
+            "source_max_dim": 2.0,
+            "scale": 0.5,
+            "translation": [
+              -0.0,
+              8.212299174026327e-10,
+              -5.224199454978429e-09
+            ],
+            "inverse": {
+              "scale": 2.0,
+              "translation": [
+                0.0,
+                -1.6424598348052655e-09,
+                1.0448398909956857e-08
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 418,
+              "triangles": 752,
+              "unique_triangles": 752,
+              "unique_vertices": 418,
+              "degenerate_triangles": 0,
+              "mesh_instances": 1,
+              "primitive_instances": 1,
+              "unique_primitives": 1,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 1
+              },
+              "bbox_min": [
+                -0.5,
+                -0.4999999999999995,
+                -0.03551031494636317
+              ],
+              "bbox_max": [
+                0.5,
+                0.4999999999999995,
+                0.03551031494636317
+              ],
+              "extents": [
+                1.0,
+                0.999999999999999,
+                0.07102062989272634
+              ],
+              "center": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 3,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "unrestricted",
+            "heap_limit_mib": 65291,
+            "timeout_seconds": null,
+            "issue_counts": {},
+            "issue_examples": {},
+            "message_count": 0,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "Qinghua Plate ( with cracks ) - Free Download",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/4357b57e23a945d98bda7bd57b68fd28",
+          "user": {
+            "displayName": "Kugatsu Tsukai 3D Models Hub",
+            "profileUrl": "https://sketchfab.com/KugatsuT",
+            "username": "KugatsuT"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "4357b57e23a945d98bda7bd57b68fd28",
+        "rule_version": "curation-v1",
+        "shard": "000-004",
+        "source_sha256": "3b11bc570fd46ff5b86bd551aaa13d8bf6f468080c6880e26f8c923492acbaf9",
+        "tier": "core",
+        "reasons": [],
+        "flags": [],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    },
+    {
+      "category": "cabinet",
+      "index_record": {
+        "uid": "030019585a6e4f79bbc3d7c10a3a31db",
+        "shard": "000-000",
+        "path": "F:\\dataset\\ME2503\\_dataset\\glbs\\000-000\\030019585a6e4f79bbc3d7c10a3a31db.glb",
+        "sha256": "8d3e2da26d235fe5eb3268dbde170efbe092d3f18cee5e955ac691e1d3826d46",
+        "geometry": {
+          "status": "passed",
+          "errors": [],
+          "warnings": [],
+          "metrics": {
+            "vertices": 138208,
+            "triangles": 54908,
+            "unique_triangles": 54908,
+            "unique_vertices": 138208,
+            "degenerate_triangles": 0,
+            "mesh_instances": 7,
+            "primitive_instances": 7,
+            "unique_primitives": 7,
+            "nonfinite_values": 0,
+            "primitive_modes": {
+              "4": 7
+            },
+            "bbox_min": [
+              -184.3446502685547,
+              -3.4426366042339396e-06,
+              -44.172592945103844
+            ],
+            "bbox_max": [
+              186.9347686767578,
+              244.19582785619323,
+              1.801842526229791
+            ],
+            "extents": [
+              371.2794189453125,
+              244.19583129882983,
+              45.974435471333635
+            ],
+            "center": [
+              1.2950592041015625,
+              122.09791220677832,
+              -21.185375209437026
+            ],
+            "max_dim": 371.2794189453125
+          },
+          "normalizable": true,
+          "features": {
+            "required_extensions": [],
+            "extensions": [],
+            "animations": false,
+            "skins": false,
+            "morph_targets": false,
+            "textures": 1,
+            "external_images": false,
+            "scene_index": 0,
+            "explicit_default_scene": true,
+            "scope": "default_scene",
+            "validator_coverage": "geometry_only",
+            "static_reference_only": false,
+            "shared_scene_roots": false,
+            "planar": false,
+            "points": false,
+            "lines": false
+          },
+          "container": {
+            "status": "passed",
+            "errors": [],
+            "warnings": []
+          }
+        },
+        "normalization": {
+          "status": "applied",
+          "output_path": "F:\\dataset\\ME2503\\hw1_work\\runs\\full_000_010\\normalized\\030019585a6e4f79bbc3d7c10a3a31db.glb",
+          "sha256": "1730f76fc2fa7f4682c27566a002ea61c5c56427be7a72c46c320a17d60a39dc",
+          "transform": {
+            "method": "default_scene_parent_trs",
+            "scene_index": 0,
+            "parent_node": 19,
+            "source_center": [
+              1.2950592041015625,
+              122.09791220677832,
+              -21.185375209437026
+            ],
+            "source_max_dim": 371.2794189453125,
+            "scale": 0.002693389261491208,
+            "translation": [
+              -0.003488098553322499,
+              -0.328857205588233,
+              0.05706046208975974
+            ],
+            "inverse": {
+              "scale": 371.2794189453125,
+              "translation": [
+                1.2950592041015625,
+                122.09791220677832,
+                -21.185375209437026
+              ]
+            }
+          },
+          "validation": {
+            "status": "passed",
+            "errors": [],
+            "warnings": [],
+            "metrics": {
+              "vertices": 138208,
+              "triangles": 54908,
+              "unique_triangles": 54908,
+              "unique_vertices": 138208,
+              "degenerate_triangles": 0,
+              "mesh_instances": 7,
+              "primitive_instances": 7,
+              "unique_primitives": 7,
+              "nonfinite_values": 0,
+              "primitive_modes": {
+                "4": 7
+              },
+              "bbox_min": [
+                -0.5,
+                -0.32885721486059344,
+                -0.06191352540080525
+              ],
+              "bbox_max": [
+                0.5000000000000001,
+                0.3288572148605935,
+                0.0619135254008053
+              ],
+              "extents": [
+                1.0,
+                0.657714429721187,
+                0.12382705080161055
+              ],
+              "center": [
+                5.551115123125783e-17,
+                2.7755575615628914e-17,
+                2.7755575615628914e-17
+              ],
+              "max_dim": 1.0
+            },
+            "normalizable": true,
+            "features": {
+              "required_extensions": [],
+              "extensions": [],
+              "animations": false,
+              "skins": false,
+              "morph_targets": false,
+              "textures": 1,
+              "external_images": false,
+              "scene_index": 0,
+              "explicit_default_scene": true,
+              "scope": "default_scene",
+              "validator_coverage": "geometry_only",
+              "static_reference_only": false,
+              "shared_scene_roots": false,
+              "planar": false,
+              "points": false,
+              "lines": false
+            },
+            "container": {
+              "status": "passed",
+              "errors": [],
+              "warnings": []
+            },
+            "bounds_verified": true
+          },
+          "errors": [],
+          "validator": {
+            "status": "passed",
+            "version": "2.0.0-dev.3.10",
+            "maxIssues": 0,
+            "errors": 0,
+            "warnings": 0,
+            "externalBlocked": false,
+            "truncated": false,
+            "resource_mode": "unrestricted",
+            "heap_limit_mib": 65291,
+            "timeout_seconds": null,
+            "issue_counts": {
+              "2": {
+                "UNUSED_OBJECT": 9
+              }
+            },
+            "issue_examples": {
+              "UNUSED_OBJECT": [
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                }
+              ]
+            },
+            "message_count": 9,
+            "count_coverage": "complete"
+          }
+        },
+        "metadata": {
+          "name": "55-76",
+          "license": "by",
+          "viewerUrl": "https://sketchfab.com/3d-models/030019585a6e4f79bbc3d7c10a3a31db",
+          "user": {
+            "displayName": "Gulin",
+            "profileUrl": "https://sketchfab.com/GulinAlex",
+            "username": "GulinAlex"
+          }
+        }
+      },
+      "tier_record": {
+        "uid": "030019585a6e4f79bbc3d7c10a3a31db",
+        "rule_version": "curation-v1",
+        "shard": "000-000",
+        "source_sha256": "8d3e2da26d235fe5eb3268dbde170efbe092d3f18cee5e955ac691e1d3826d46",
+        "tier": "core",
+        "reasons": [],
+        "flags": [
+          "metadata_poor"
+        ],
+        "review_required": false,
+        "validation_coverage": "complete",
+        "render_status": "rendered",
+        "duplicate_of": null,
+        "variant_group": null,
+        "license_subset": {
+          "ccby_cc0": true,
+          "noncommercial": false,
+          "sharealike": false,
+          "no_derivatives": false,
+          "missing": false,
+          "scope": "license metadata only; attribution, provenance and other rights require separate assessment"
+        },
+        "provisional": true,
+        "calibration_status": "pending_human_labels",
+        "rejection_primary": null
+      }
+    }
+  ]
+}

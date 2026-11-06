@@ -1,0 +1,13 @@
+{
+  "object": "plate",
+  "quality_checked": true,
+  "trial": "orb_090",
+  "source_pair_json": "matches/experiments/orb_090/plate/pair_006_014.json",
+  "pair": "pair_006_014",
+  "detector": "orb",
+  "mutual_matches": 325,
+  "fundamental_inliers": 228,
+  "calibrated_consistent_inliers": 222,
+  "calibrated_median_error_px": 0.20717783423840888,
+  "status": "estimated"
+}

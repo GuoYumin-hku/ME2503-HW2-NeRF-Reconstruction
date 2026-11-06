@@ -1,0 +1,13 @@
+{
+  "object": "bowl",
+  "quality_checked": true,
+  "trial": "sift_090",
+  "source_pair_json": "matches/experiments/sift_090/bowl/pair_027_028.json",
+  "pair": "pair_027_028",
+  "detector": "sift",
+  "mutual_matches": 41,
+  "fundamental_inliers": 36,
+  "calibrated_consistent_inliers": 35,
+  "calibrated_median_error_px": 0.1625038492675197,
+  "status": "estimated"
+}

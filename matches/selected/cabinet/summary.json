@@ -1,0 +1,13 @@
+{
+  "object": "cabinet",
+  "quality_checked": true,
+  "trial": "sift_090",
+  "source_pair_json": "matches/experiments/sift_090/cabinet/pair_014_022.json",
+  "pair": "pair_014_022",
+  "detector": "sift",
+  "mutual_matches": 20,
+  "fundamental_inliers": 16,
+  "calibrated_consistent_inliers": 12,
+  "calibrated_median_error_px": 0.32152525598922044,
+  "status": "estimated"
+}
