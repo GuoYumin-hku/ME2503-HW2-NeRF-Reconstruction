@@ -76,6 +76,6 @@ For the baseline feature matches and post-hoc selected-pair QC, run:
 
 - Group number: **TODO**
 - Member names and contributions: **TODO**
-- GitHub repository URL: **TODO**
+- GitHub repository URL: [ME2503-HW2-NeRF-Reconstruction](https://github.com/GuoYumin-hku/ME2503-HW2-NeRF-Reconstruction)
 
-Before submission, fill the group number, member names/contributions, and future GitHub URL in `REPORT.md`; include all ten result folders and the prompts in [PROMPTS.md](PROMPTS.md). Exclude `hw2/.local_assets/`, a temporary local cache; do not redistribute source GLBs. Keep `data/ATTRIBUTION.md` with any generated images.
+Before submission, fill the group number and member names/contributions in `REPORT.md`; include all ten result folders and the prompts in [PROMPTS.md](PROMPTS.md). Exclude `hw2/.local_assets/`, a temporary local cache; do not redistribute source GLBs. Keep `data/ATTRIBUTION.md` with any generated images.

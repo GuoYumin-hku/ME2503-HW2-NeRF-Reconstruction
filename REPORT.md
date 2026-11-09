@@ -4,9 +4,9 @@
 
 - **Group:** TODO — enter group number.
 - **Members and contributions:** TODO — enter each member’s name and contribution.
-- **GitHub repository:** TODO — add the public or course-accessible repository URL.
+- **GitHub repository:** [ME2503-HW2-NeRF-Reconstruction](https://github.com/GuoYumin-hku/ME2503-HW2-NeRF-Reconstruction).
 
-This report records the completed local pipeline and results. All ten objects have verified image datasets, selected point-matching results, NeRF checkpoints, held-out evaluations, and orbit GIFs. Group details and the future GitHub URL remain TODO fields for the team to fill in.
+This report records the completed pipeline and results. All ten objects have verified image datasets, selected point-matching results, NeRF checkpoints, held-out evaluations, and orbit GIFs. Group number and member contributions remain TODO fields for the team to fill in.
 
 ## 1. Pipeline overview
 
