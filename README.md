@@ -1,6 +1,6 @@
 ﻿# HW2: 3D Reconstruction and Rendering
 
-This repository contains the completed synthetic multi-view reconstruction pipeline for ten HW1 assets, including ten result folders with metrics, checkpoints, held-out comparisons, and 48-frame orbit GIFs. Read [ASSIGNMENT.md](ASSIGNMENT.md) for the course brief, [REPORT.md](REPORT.md) for the method, results, analysis, limitations, and team metadata TODOs, and [DATA_PREPARATION.md](DATA_PREPARATION.md) before regenerating data; it documents source assets, normalization, camera setup, and attribution.
+This repository contains the completed synthetic multi-view reconstruction pipeline for ten HW1 assets, including ten result folders with metrics, checkpoints, held-out comparisons, and 48-frame orbit GIFs. Read [ASSIGNMENT.md](ASSIGNMENT.md) for the course brief and [REPORT.md](REPORT.md) for the method, results, analysis, and limitations. Before regenerating data, see [DATA_PREPARATION.md](DATA_PREPARATION.md) for source assets, normalization, camera setup, and attribution.
 
 ## Contents
 
@@ -72,10 +72,18 @@ For the baseline feature matches and post-hoc selected-pair QC, run:
 
 `run_all.py` supports `--skip-existing`; use `--sparse-views 8 --skip-existing` to add the eight-view ablation to existing full runs. The `--max-pairs 100` retries actually evaluate 37 distinct camera pairs for each specified object. `verify_submission.py` checks the ten image sets, match artifacts, metrics, checkpoints, held-out images, and 48-frame GIFs without original GLBs or a GPU. If `hw2` is the repository root, remove the `hw2/` prefixes from paths and command arguments.
 
-## Team submission fields
+## Group 4
 
-- Group number: **TODO**
-- Member names and contributions: **TODO**
-- GitHub repository URL: [ME2503-HW2-NeRF-Reconstruction](https://github.com/GuoYumin-hku/ME2503-HW2-NeRF-Reconstruction)
+The team shared the workload, with the following primary responsibilities.
 
-Before submission, fill the group number and member names/contributions in `REPORT.md`; include all ten result folders and the prompts in [PROMPTS.md](PROMPTS.md). Exclude `hw2/.local_assets/`, a temporary local cache; do not redistribute source GLBs. Keep `data/ATTRIBUTION.md` with any generated images.
+| Member | Student ID | Main contributions |
+| --- | --- | --- |
+| 郭聿珉 | 260010045 | Implemented the experimental code, ran experiments, and collected results. |
+| 王海纳 | 260010205 | Extracted and prepared the data. |
+| 张凯燕 | 260010070 | Implemented the experimental code, ran experiments, and collected results. |
+| 马靖 | 260010203 | Extracted and prepared the data. |
+| 周泽洲 | 250010018 | Wrote the report. |
+
+The submission includes all ten result folders and the [prompt log](PROMPTS.md). Exclude the temporary `.local_assets/` cache and source GLBs when sharing the project. Keep [asset attribution](data/ATTRIBUTION.md) with the generated images.
+
+The public repository is [ME2503-HW2-NeRF-Reconstruction](https://github.com/GuoYumin-hku/ME2503-HW2-NeRF-Reconstruction).

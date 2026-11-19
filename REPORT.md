@@ -2,11 +2,21 @@
 
 ## Team and repository
 
-- **Group:** TODO — enter group number.
-- **Members and contributions:** TODO — enter each member’s name and contribution.
-- **GitHub repository:** [ME2503-HW2-NeRF-Reconstruction](https://github.com/GuoYumin-hku/ME2503-HW2-NeRF-Reconstruction).
+**Group 4**
 
-This report records the completed pipeline and results. All ten objects have verified image datasets, selected point-matching results, NeRF checkpoints, held-out evaluations, and orbit GIFs. Group number and member contributions remain TODO fields for the team to fill in.
+The team shared the workload, with the following primary responsibilities.
+
+| Member | Student ID | Main contributions |
+| --- | --- | --- |
+| 郭聿珉 | 260010045 | Implemented the experimental code, ran experiments, and collected results. |
+| 王海纳 | 260010205 | Extracted and prepared the data. |
+| 张凯燕 | 260010070 | Implemented the experimental code, ran experiments, and collected results. |
+| 马靖 | 260010203 | Extracted and prepared the data. |
+| 周泽洲 | 250010018 | Wrote the report. |
+
+The code, prompts, and results are available in the [GitHub repository](https://github.com/GuoYumin-hku/ME2503-HW2-NeRF-Reconstruction).
+
+This report records the completed pipeline and results. All ten objects have verified image datasets, selected point-matching results, NeRF checkpoints, held-out evaluations, and orbit GIFs.
 
 ## 1. Pipeline overview
 
